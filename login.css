@@ -1,0 +1,9 @@
+body{
+    background-color: #DDDDDD;
+}
+.log{
+    width: 500px;
+    margin: 100px auto;
+    background-color: #FFFFFF;
+    padding: 100px;
+}

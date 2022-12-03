@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #8d8d8d;
+}
+form{
+    background-color: white;
+    width: 80%;
+    margin: 100px auto;
+    padding: 100px;
+}
+.judul{
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+    margin-top: -30px;
+}

@@ -1,0 +1,286 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background: white;
+    box-shadow: 0px 5px 8px #888888;
+    height:  50px;
+    position: sticky;
+    top: 0px;
+    z-index: 100
+}
+
+.logo{
+position: absolute;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 28px;
+text-transform: uppercase;
+color: #000000;
+position: absolute;
+top: 10px;
+left: 14px;
+}
+
+.navigasi{
+    font-size: 14px;
+    text-align: center;
+    float: right;
+    margin: 14px 10px;
+    
+}
+
+.navigasi a{
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.navigasi a:hover{
+    text-shadow:0px 0px 1px black;
+    transition: .2s ease;
+}
+
+.signin{
+    font-size: 14px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 80px;
+    text-align: center;
+    float: right;
+    margin: 14px 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.signin:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #000000;
+    transition: .3s ease;
+}
+
+
+.hero{
+    height: 500px;
+    background-image: url('asset/bg.jpg');
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background-position: center;
+    background-size: cover;
+}
+
+.slogan a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.slogan p{
+    font-size: 20px;
+    width: 55%;
+}
+
+.slogan{
+    float: left;
+    padding: 150px 10%;
+}
+
+.hero .search-container button {
+    padding: 6px 10px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+  
+.hero .search-container button:hover {
+    background: #ccc;
+}
+
+.hero input[type=text] {
+    padding: 6px;
+    font-size: 17px;
+    border: none;
+}
+
+.slogan{
+  float: left;
+}
+
+.slogan h1{
+    font-size: 30px;
+}
+
+.navcard{
+	background-color: rgba(255,255,255);
+	position: absolute;
+	height: 150px;
+	min-width: 50%;
+	top: 450px;
+	left: 50%;
+	transform: translate(-50%);
+	border-radius: 20px;
+	box-shadow: 0px 15px 20px 0 rgba(0, 0, 0, 0.3);
+	border: 3px solid rgba(0, 0, 0, 0.3);
+	display: flex;
+	flex-wrap: nowrap;
+	padding: 20px;
+}
+.navcard a{
+	flex-grow: 1;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	font-size: 14px;
+}
+
+.navcard a:hover{
+	font-weight: bold;
+}
+.navcard a:hover img{
+	transform: translate(0, -10%);
+	transition: .3s ease;
+}
+
+#history{
+    margin-top: -30px;
+	background-image: linear-gradient(to right, rgba(255, 255, 255, 1) 45%, rgba(255, 255, 255, 0)), 
+	url("asset/h1.jpg");
+	height: 500px;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+    padding: 150px 10%;
+}
+#history #text1{
+	width: 50%;
+	color: black;
+	text-align: left;
+	position: relative;
+	top: 50%;
+	transform: translate(0%, -50%);
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 20px;
+}
+#history h1{
+    font-size: 30px;
+}
+.destination{
+    text-align: center;
+    height: 600px;
+    margin-top: -20px;
+    background-color: #F2F2F2;
+    padding: 50px 100px;
+}
+.destination h1{
+    font-size: 30px;
+}
+
+/*card------------*/
+
+
+.card{
+    text-align: left;
+    border-radius: 0px;
+}
+.card img{
+    border-radius: 0px;
+}
+.card .rating{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.card .rating img{
+    margin-left:8px;
+}
+
+.swiper{
+    margin-top: 50px;
+}
+.card-title{
+    font-size: 20px;
+}
+.card-text{
+    font-size: 14px;
+}
+
+
+
+/*-------news--------*/
+.news{
+    background-color: #FFFFFF;
+    padding-top: 100px;
+    height: 300px;
+}
+.news h1{
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;;
+}
+.news p{
+    text-align: center;
+    font-size: 20px;
+}
+/*daftar news----------*/
+.berita{
+    height: 500px;
+    background-color: #F2F2F2;
+    padding: 100px 100px;
+    margin-bottom: 0px;
+}
+.berita .gambar img{
+    float: left;
+    width: 50%;
+    height: 20%;
+}
+.gambar{
+    width: 50%;
+    height: 300px;
+    float: left;
+    background-size: cover;
+    background-position: center;
+}
+
+.berita .isi{
+    float: left;
+    margin-left: 10%;
+    text-align: left;
+    width: 40%;
+}
+.berita .isi img{
+    float: left;
+    border-radius: 100%;
+    width: 40px;
+    margin-right: 20px;
+}
+.berita .isi .username{
+    font-size: 11px;
+}
+
+.centerbuton{
+    width: 100%;
+    background-color: #F2F2F2;
+    height: 100px;
+}
+
+footer{
+    margin-top: 0px;
+    height: 200px;
+}
+.text-muted{
+    background: white !important;
+}
+

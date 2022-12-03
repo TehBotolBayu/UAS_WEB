@@ -1,0 +1,43 @@
+/*card------------*/
+*{
+    box-sizing: border-box;
+}
+
+.card{
+    text-align: left;
+    border-radius: 0px;
+}
+.card img{
+    border-radius: 0px;
+}
+.card .rating{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.card .rating img{
+    margin-left:8px;
+}
+
+.swiper{
+    margin-top: 50px;
+}
+.card-title{
+    font-size: 20px;
+}
+.card-text{
+    font-size: 14px;
+}
+.destinasi{
+    padding: 0px 0px 0px 50px;
+    background-color: #DDDDDD;
+    height: 100vh;
+    overflow: auto;
+}
+.destinasi .card{
+    float: left;
+    margin: 0 10px;
+    margin-bottom: 50px;
+}

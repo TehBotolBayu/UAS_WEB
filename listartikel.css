@@ -1,0 +1,167 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background: white;
+    box-shadow: 0px 5px 8px #888888;
+    height:  50px;
+    position: sticky;
+    top: 0px;
+    z-index: 100
+}
+.logo{
+position: absolute;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 28px;
+text-transform: uppercase;
+color: #000000;
+position: absolute;
+top: 10px;
+left: 14px;
+}
+.navigasi{
+    font-size: 14px;
+    text-align: center;
+    float: right;
+    margin: 14px 10px;   
+}
+.navigasi a{
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.navigasi a:hover{
+    text-shadow:0px 0px 1px black;
+    transition: .2s ease;
+}
+
+.signin{
+    font-size: 14px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 80px;
+    text-align: center;
+    float: right;
+    margin: 14px 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.signin:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #000000;
+    transition: .3s ease;
+}
+
+/* highlight */
+.hero{
+    height: 500px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background-position: center;
+    background-size: cover;
+}
+
+.slogan a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.slogan p{
+    font-size: 20px;
+    width: 55%;
+}
+
+.slogan{
+    float: left;
+    padding: 150px 10%;
+}
+
+.slogan{
+  float: left;
+}
+
+.slogan h1{
+    font-size: 30px;
+}
+.slogan{
+    padding-left: 10%;
+    padding-bottom: 0px;
+    padding-top: 300px;
+}
+.slogan h1{
+    font-size: 50px;
+    color: white;
+}
+.slogan p{
+    font-size: 30px;
+    color: white;
+}
+/*-------news--------*/
+.news{
+    background-color: #F2F2F2;
+    padding-top: 100px;
+    height: 300px;
+}
+.news h1{
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+}
+.news p{
+    text-align: center;
+    font-size: 20px;
+}
+/*daftar news----------*/
+.berita{
+    margin-top: -120px;
+    height: 500px;
+    background-color: #F2F2F2;
+    padding: 100px 100px;
+    margin-bottom: 0px;
+}
+.berita .gambar img{
+    float: left;
+    width: 50%;
+    height: 20%;
+}
+.gambar{
+    width: 50%;
+    height: 300px;
+    float: left;
+    background-size: cover;
+    background-position: center;
+}
+.berita .isi{
+    float: left;
+    margin-left: 10%;
+    text-align: left;
+    width: 40%;
+}
+.berita .isi img{
+    float: left;
+    border-radius: 100%;
+    width: 40px;
+    margin-right: 20px;
+}
+.berita .isi .username{
+    font-size: 11px;
+}
+footer{
+    margin-top: 0px;
+    height: 200px;
+}
+.text-muted{
+    background: white !important;
+}

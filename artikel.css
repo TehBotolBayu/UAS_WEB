@@ -1,0 +1,33 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #DDDDDD;
+}
+main{
+    padding: 0px 50px;
+}
+article{
+    float: left;
+}
+#author{
+    margin-bottom: 50px;
+}
+#pp{
+    float: left;
+    border-radius: 100%;
+    width: 40px;
+    margin-right: 20px;
+}
+.username{
+    font-size: 11px;
+}
+.siderekom{
+    margin-top: 50px;
+}
+.ti{
+    margin-bottom: 20px;
+}
+footer{
+    float: left;
+    width: 100%;
+}

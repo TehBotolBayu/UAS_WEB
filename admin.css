@@ -1,0 +1,147 @@
+body {
+    color: #404E67;
+    background: #F5F7FA;
+    font-family: 'Open Sans', sans-serif;
+}
+.table-wrapper {
+    width: 700px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 20px;	
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+.table-title {
+    padding-bottom: 10px;
+    margin: 0 0 10px;
+}
+.table-title h2 {
+    margin: 6px 0 0;
+    font-size: 22px;
+}
+.table-title .add-new {
+    float: right;
+    height: 30px;
+    font-weight: bold;
+    font-size: 12px;
+    text-shadow: none;
+    min-width: 100px;
+    border-radius: 50px;
+    line-height: 13px;
+}
+.table-title .add-new i {
+    margin-right: 4px;
+}
+table.table {
+    table-layout: fixed;
+}
+table.table tr th, table.table tr td {
+    border-color: #e9e9e9;
+}
+table.table th i {
+    font-size: 13px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+table.table th:last-child {
+    width: 100px;
+}
+table.table td a {
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 5px;
+    min-width: 24px;
+}    
+table.table td a.add {
+    color: #27C46B;
+}
+table.table td a.edit {
+    color: #FFC107;
+}
+table.table td a.delete {
+    color: #E34724;
+}
+table.table td i {
+    font-size: 19px;
+}
+table.table td a.add i {
+    font-size: 24px;
+    margin-right: -1px;
+    position: relative;
+    top: 3px;
+}    
+table.table .form-control {
+    height: 32px;
+    line-height: 32px;
+    box-shadow: none;
+    border-radius: 2px;
+}
+table.table .form-control.error {
+    border-color: #f50000;
+}
+table.table td .add {
+    display: none;
+}
+
+.table-wrapper{
+    background-color: white;
+}
+body{
+    background-color: #F2f2f2;
+}
+
+.sidemenu{
+    height: 100vh;
+    width: 25%;
+    background-color: #747474;
+    color: white;
+    float: left;
+    z-index: 100;
+}
+.sidemenu .jdl{
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;;
+}
+.sidemenu .menu{
+    height: 50px;
+    padding: 10px;
+}
+.sidemenu .menu:hover {
+    background-color: #DDDDDD;
+    font-size: 18px;
+    color: black;
+    transition: .2s ease;
+}
+
+.tabel{
+    position: absolute;
+    overflow-x: auto;
+    margin-left: 10%;
+    z-index: -1;
+    padding: 0px;
+
+}
+
+.table-wrapper{
+    margin-left: 20%;
+}
+
+
+.tabel{
+    display: none;
+}
+
+/* .tabe{
+    width: 50%;
+    overflow: auto;
+    border: 2px solid red;
+}
+.table-wrapper{
+    border: 2px solid blue;
+} */
+
+/* .table-wrapper{
+    max-width: 50vw;
+    margin-right: -80px;
+} */
+
